@@ -3,19 +3,27 @@ Awesome Chocolate Sql Queries Using MYSQL
 
 ## Using MYSQL Workbench 8.0
 
+![WhatsApp Image 2025-06-29 at 12 14 01 AM](https://github.com/user-attachments/assets/bb315297-5c2b-4eb1-af48-513ad7a4a3da)
+
+
 ## Questions
-How to use SELECT statement to answer business questions
-Working with WHERE clause
-Using AND, OR, NOT and combining them to create complex queries.
-Sorting query results using ORDER BY
-Combining data from two or more tables using JOINS
-Creating reports with GROUP BY
+- How to use SELECT statement to answer business questions
 
--- Select everything from sales table
+- Working with WHERE clause
+  
+- Using AND, OR, NOT and combining them to create complex queries.
 
-select * from sales;
+- Sorting query results using ORDER BY
 
--- Show just a few columns from sales table
+- Combining data from two or more tables using JOINS
+
+- Creating reports with GROUP BY
+
+  ## Select everything from sales table
+
+-   select * from sales;
+
+  ##  Show just a few columns from sales table
 
 select SaleDate, Amount, Customers from sales;
 select Amount, Customers, GeoID from sales;
